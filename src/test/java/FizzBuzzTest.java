@@ -18,8 +18,8 @@ class FizzBuzzTest {
 
     @Test
     void fizzBuzzString() {
-        String testString = "fun";
+        String testString = "rub";
         String str = f.fizzBuzzString(testString);
-        assertEquals("f", str);
+        assertEquals("Buzz", str);
     }
 }
