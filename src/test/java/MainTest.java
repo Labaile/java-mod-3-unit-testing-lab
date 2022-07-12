@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 class MainTest {
@@ -7,16 +8,22 @@ class MainTest {
 
     }
 
-    @Test
-    void startwithf() {
-    }
+    String str;
 
     @Test
+    void startwithf() {
+        Assertions.assertEquals('f', 'f');
+
+    }
+}
+
+  /* @Test
     void endwithb() {
+    Assertions.
     }
 
     @Test
     void startswithfandendswithb() {
 
     }
-}
+    */
