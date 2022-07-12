@@ -24,4 +24,11 @@ class StringUtilsTest {
         reversed = stringUtils.reverse(reversed);
         assertEquals("sample", reversed);
     }
+
+    @Test
+    void reserveNull() {
+        String testString = null;
+        String reversed = stringUtils.reverse(testString);
+        assertNull(reversed);
+    }
 }

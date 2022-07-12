@@ -1,5 +1,5 @@
 public class StringUtils {
-    public String reserve(String toReverse) {
+    public String reverse(String toReverse) {
         // return "elpmas";
         byte[] stringBytes = toReverse.getBytes();
         byte[] reversedBytes = new byte[stringBytes.length];
