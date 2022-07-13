@@ -16,13 +16,12 @@ class MainTest {
     }
 }
 
-  /* @Test
+   /*@Test
     void endwithb() {
-    Assertions.
+    Assertions.assertEquals('b','b');
     }
 
     @Test
     void startswithfandendswithb() {
+*/
 
-    }
-    */

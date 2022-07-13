@@ -18,8 +18,31 @@ class FizzBuzzTest {
 
     @Test
     void fizzBuzzString() {
-        String testString = "rub";
+        String testString = "fub";
+        String str = f.fizzBuzzString(testString);
+        assertEquals("FizzBuzz", str);
+    }
+
+    @Test
+    void startswithf() {
+        String testString = "fun";
+        String str = f.fizzBuzzString(testString);
+        assertEquals("Fizz", str);
+    }
+
+
+    @Test
+    void endwithb() {
+        String testString = "tub";
         String str = f.fizzBuzzString(testString);
         assertEquals("Buzz", str);
     }
+
+    @Test
+    void returnsnull() {
+        String testString = null;
+        String str = f.fizzBuzzString(testString);
+        assertEquals(null, str);
+    }
+
 }
